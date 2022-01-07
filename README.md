@@ -25,7 +25,7 @@ The Covid-19 pandemic further reinforced the relevance of implementing good ESG 
 
 ### 1. Introdução
 
-A partir da observação do crescimento da indústria de fundos e da relevância dos aspectos ASG, foi definida a Pergunta de Negócio (Houve crescimento dos fundos ASG na pandemia?) a fim de atender demanda da área de análise da gestora onde trabalho.
+A partir da observação do crescimento da indústria de fundos e da relevância dos aspectos ASG, foi definida a Pergunta de Negócio (Houve crescimento dos fundos ASG na pandemia?) a fim de atender demanda da área de análise da empresa gestora de fundos de investimento onde trabalho.
 
 ### 2. Modelagem
 
@@ -33,7 +33,7 @@ Apesar de contar com a possibilidade de captura de dados confiáveis de fonte ab
 
 <img align="center" height="250" width="800" src="https://user-images.githubusercontent.com/95982482/148579761-bde1e4e2-5d64-4ca9-b236-30034b4cda10.png" />
 
-A maior parte do processo de ETL foi realizado no Excel, visto a disponibilização pela Quantum Axis dos dados em série. Entretanto, houve necessidade de lançar mão do PDI - Pentaho Data Integration que é o componente da suíte Pentaho usado para criar processos de extração, transformação e carga (do inglês Extraction, Transformation and Loading, ETL), unicamente para "pivotar" as variáveis de retorno x volatilidade, pois a Quantum Axis não fornece esses dados em formato de série.
+A maior parte do processo de ETL (do inglês Extraction, Transformation and Loading) foi realizado no Excel, visto a disponibilização pela Quantum Axis dos dados em série. Entretanto, houve necessidade de lançar mão do PDI - Pentaho Data Integration que é o componente da suíte Pentaho usado para criar processos de extração, transformação e carga (ETL), unicamente para "pivotar" (o mesmo que "transpor" no Excel) as variáveis de retorno x volatilidade, pois a Quantum Axis não fornece esses dados em formato de série.
 
 <img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148579973-854e8bd0-9231-4074-8b94-60e990eac49a.png" />
 
