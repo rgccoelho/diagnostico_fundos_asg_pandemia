@@ -40,24 +40,26 @@ A maior parte do processo de ETL (do inglês _Extraction, Transformation and Loa
 <img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148579973-854e8bd0-9231-4074-8b94-60e990eac49a.png" />
 
 Para entrega da Análise Diagnóstica, foi escolhido o Power BI por ser a ferramenta já amplamente utilizada pela empresa e já familiarizada pelos funcionários.<p>
-Tela inicial:
+Tela inicial:<p>
 <img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148580330-8b5a28b7-c382-48e4-b2bb-dabf895e42d3.png" /><p>
   
-Grandes Números - Mês de Março de 2020: posição inicial de R$ 1,37 bilhão de Patrimônio Líquido e 25 fundos ASG na indústria.
+Grandes Números - Mês de Março de 2020: Posição inicial de R$ 1,37 bilhão de Patrimônio Líquido e 25 fundos ASG na indústria.
 <img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148580476-56726752-4e10-41b5-85d6-17b53caeacd4.png" /><p>
   
 Grandes Números - Mês de Dezembro de 2020: Crescimento para R$ 2,95 bilhões de Patrimônio Líquido e 39 fundos ASG.
 <img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148580622-50a5470b-0122-4a45-b11c-125d3098b783.png" /><p>
 
 Grandes Números - Mês de Junho de 2021: Crescimento para R$ 3,28 bilhões de Patrimônio Líquido e 43 fundos ASG.  
-<img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148580763-6d89d7ba-4ea3-4b04-920c-220dbbf21bde.png" />
+<img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148580763-6d89d7ba-4ea3-4b04-920c-220dbbf21bde.png" /><p>
 
+A seguir, telas das composições das carteiras dos fundos BB TOP Ações Índice de Sustentabilidade Empresarial FI Ações e Bradesco Sustentabilidade Empresarial FI Ações nos meses de 03/2020, 12/2020 e 06/2021, respectivamente.<p>  
 <img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148580902-a238ef10-ae25-4475-9259-26fde873318c.png" />
 
 <img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148581018-be265d18-19be-4a98-98aa-ace7ebf69b85.png" />
 
-<img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148581114-a10238e3-171b-47e6-8f75-e0d060a75655.png" />
+<img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148581114-a10238e3-171b-47e6-8f75-e0d060a75655.png" /><p>
 
+Nesta tela, pode-se verificar a diferença entre retorno e volatilidade dos fundos selecionados:<p>
 <img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148581263-532c62a8-ae50-4bd6-9f62-a2900cdb7496.png" />
 
 ### 3. Resultados
