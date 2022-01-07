@@ -15,49 +15,53 @@ https://github.com/rgccoelho/diagnostico_fundos_asg_pandemia
 
 ### Resumo
 
-Foi publicada uma matéria na ["exame.invest"](https://invest.exame.com/me/os-fundos-de-acoes-que-mais-ganharam-investidores-durante-a-pandemia) que abordava a evolução da quantidade de cotistas nos fundos de investimento em ações durante a pandemia. A matéria também chamou atenção para o crescimento de fundos temáticos, como é o caso de fundos ASG. Desta forma, originou-se a ideia da realização de uma análise dignóstica do comportamento dos fundos com a temática ASG durante a pandemia de Covid-19 no Brasil no período de março/2020 a junho/2021.
+Em 2021, a Associação Brasileira das Entidades dos Mercados Financeiro e de Capitais - [ANBIMA](https://www.anbima.com.br/pt_br/pagina-inicial.htm) promoveu uma pesquisa com instituições do mercado de capitais brasileiro sobre sustentabilidade. Segundo a ANBIMA, "_O tema não é novo, mas a adoção dos critérios ESG (ambientais, sociais e de governança) nos processos de decisões de investimento tem crescido diante de efeitos cada vez mais visíveis de mudanças climáticas, tragédias ambientais e problemas sociais_". <p>
+A pandemia do Covid-19 reforçou ainda mais a relevância de implementação de boas práticas ASG (sigla para os três aspectos observados: ambiental, social e governança corporativa). Diante do crescimento da indústria de fundos de investimento e, também, dos fundos temáticos,onde estão incluídos os fundos que observam os aspectos ASG, originou-se a ideia da realização de uma análise dignóstica do comportamento destes fundos temáticos ASG durante a pandemia de Covid-19 no Brasil no período de março/2020 a junho/2021.
 
 ### Abstract
 
-An article was published in "exame.invest" (https://invest.exame.com/me/os-fundos-de-acoes-que-mais-ganharam-investidores-durante-a-pandemia) that addressed the evolution number of shareholders in equity investment funds during the pandemic. The article also drew attention to the growth of thematic funds, such as ESG funds. This gave rise to the idea of ​​carrying out a diagnostic analysis of the behavior of funds with the ESG theme during the Covid-19 pandemic in Brazil from March/2020 to June/2021.
+In 2021, the Brazilian Association of Financial and Capital Market Entities - [ANBIMA](https://www.anbima.com.br/pt_br/pagina-inicial.htm) promoted a survey of Brazilian capital market institutions on sustainability. According to ANBIMA, "_The topic is not new, but the adoption of ESG (environmental, social and governance) criteria in investment decision processes has grown in light of the increasingly visible effects of climate change, environmental tragedies and social problems_" . <p>
+The Covid-19 pandemic further reinforced the relevance of implementing good ESG practices (acronym for the three aspects observed: environmental, social and corporate governance). Given the growth of the investment fund industry and also of thematic funds, which include funds that observe the ASG aspects, the idea of carrying out a diagnostic analysis of the behavior of these ASG thematic funds during the Covid-19 pandemic in Brazil from March/2020 to June/2021. 
 
 ### 1. Introdução
 
-A partir da leitura da materia, foi definida a Pergunta de Negócio (Como foi o comportamento dos fundos ASG na pandemia?) e avaliadas as demais etapas do processo de BI, desde a Definição de Requisitos até o Storytelling.
+A partir da observação do crescimento da indústria de fundos e da relevância dos aspectos ASG, foi definida a Pergunta de Negócio (Houve crescimento dos fundos ASG na pandemia?) a fim de atender demanda da área de análise da gestora onde trabalho.
 
 ### 2. Modelagem
 
-Com o mapeamento dos dados necessários e análise das fontes confiáveis, a fonte escolhida foi a [Quantum Axis](http://www.quantumaxis.com.br).
+Apesar de contar com a possibilidade de captura de dados confiáveis de fonte aberta, como a CVM, a opção de utilização por uma plataforma paga e já contratada pela empresa foi determinante pela gama de soluções disponibilizadas, incluindo dados em série, características dos fundos, classificação ANBIMA, composição das carteiras, entre outros. Desta forma, a fonte utilizada foi a [Quantum Axis](http://www.quantumaxis.com.br).
 
-<img align="center" height="250" width="800" src="https://github.com/rgccoelho/Imagens/blob/main/QuantumAxis.PNG?raw=true" />
+<img align="center" height="250" width="800" src="https://user-images.githubusercontent.com/95982482/148579761-bde1e4e2-5d64-4ca9-b236-30034b4cda10.png" />
 
-Todo processo de ETL foi realizado no PDI - Pentaho Data Integration que é o componente da suíte Pentaho usado para criar processos de extração, transformação e carga (do inglês Extraction, Transformation and Loading, ETL).
+A maior parte do processo de ETL foi realizado no Excel, visto a disponibilização pela Quantum Axis dos dados em série. Entretanto, houve necessidade de lançar mão do PDI - Pentaho Data Integration que é o componente da suíte Pentaho usado para criar processos de extração, transformação e carga (do inglês Extraction, Transformation and Loading, ETL), unicamente para "pivotar" as variáveis de retorno x volatilidade, pois a Quantum Axis não fornece esses dados em formato de série.
 
-<img align="center" height="400" width="800" src="https://github.com/rgccoelho/Imagens/blob/main/PDI%20ret%20vol.PNG?raw=true" />
+<img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148579973-854e8bd0-9231-4074-8b94-60e990eac49a.png" />
 
-Assim, o Power BI foi escolhido pra entrega da Análise Diagnóstica.
+Para entrega da Análise Diagnóstica, foi escolhido o Power BI por ser a ferramenta já amplamente utilizada pela empresa e já familiarizada pelos funcionários.
 
-<img align="center" height="400" width="800" src="https://github.com/rgccoelho/Imagens/blob/main/Introdu%C3%A7%C3%A3o.PNG?raw=true" />
+<img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148580330-8b5a28b7-c382-48e4-b2bb-dabf895e42d3.png" />
 
-<img align="center" height="400" width="800" src="https://github.com/rgccoelho/Imagens/blob/main/Grandes%20Nrs%20032020.PNG?raw=true" />
+<img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148580476-56726752-4e10-41b5-85d6-17b53caeacd4.png" />
 
-<img align="center" height="400" width="800" src="https://github.com/rgccoelho/Imagens/blob/main/Grandes%20Nrs%20122020.PNG?raw=true" />
+<img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148580622-50a5470b-0122-4a45-b11c-125d3098b783.png" />
 
-<img align="center" height="400" width="800" src="https://github.com/rgccoelho/Imagens/blob/main/Grandes%20Nrs%20062021.PNG?raw=true" />
+<img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148580763-6d89d7ba-4ea3-4b04-920c-220dbbf21bde.png" />
 
-<img align="center" height="400" width="800" src="https://github.com/rgccoelho/Imagens/blob/main/Comparador%20carteiras%20032020.PNG?raw=true" />
+<img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148580902-a238ef10-ae25-4475-9259-26fde873318c.png" />
 
-<img align="center" height="400" width="800" src="https://github.com/rgccoelho/Imagens/blob/main/Comparador%20carteiras%20122020.PNG?raw=true" />
+<img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148581018-be265d18-19be-4a98-98aa-ace7ebf69b85.png" />
 
-<img align="center" height="400" width="800" src="https://github.com/rgccoelho/Imagens/blob/main/Comparador%20carteiras%20122020.PNG?raw=true" />
+<img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148581114-a10238e3-171b-47e6-8f75-e0d060a75655.png" />
+
+<img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148581263-532c62a8-ae50-4bd6-9f62-a2900cdb7496.png" />
 
 ### 3. Resultados
 
-Com os dados disponibilizados no dashboard puderam ser apurados várias conclusões dependendo da variável avaliada já que trata-se de uma análise multi. Mas apenas com esses dados quantitativos não há como concluir que tipo de indutor foi responsável por cada movimento em cada variável, quantidade de cotista, captação líquida e etc. Demonstrou-se com números os momentos de maior movimento mas não os motivos. Motivos estes a serem apurados com as informações qualitativas as quais não temos acesso. 
+Com os dados disponibilizados no dashboard puderam ser demonstrados vários números, como o crescimento do PL dos fundos, o crescimento do número de fundos ASG disponibilizados na indústria de fundos, o crescimento do número de cotistas, a composição das carteiras dos fundos e a comparação com as carteiras de outros fundos, a comparação entre o retorno e a volatilidade dos fundos.
 
 ### 4. Conclusões
 
-O diagnóstico dos fundos ASG na pandemia possibilitou verificarmos o crescimento de PL, número de cotistas e número de fundos com essa temática na indústria de fundos de investuimentos. Também viabilizou a comparação da composição dos ativos entre fundos desta temática.
+O diagnóstico dos fundos ASG na pandemia possibilitou responder a Pergunta de Negócio: houve crescimento dos fundos ASG no período da pandemia, tanto em número de cotistas, quanto em número de fundos disponibilizados, quanto em Patrimônio Líquido (PL). Observou-se que esse tema está presente no marcado de capitais e que as gestoras estão buscando estratégias para incorporar o compromisso com as questões ASG.
 
 ---
 
