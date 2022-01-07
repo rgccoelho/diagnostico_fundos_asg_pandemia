@@ -16,7 +16,7 @@ https://github.com/rgccoelho/diagnostico_fundos_asg_pandemia
 ### Resumo
 
 Em 2021, a Associação Brasileira das Entidades dos Mercados Financeiro e de Capitais - [ANBIMA](https://www.anbima.com.br/pt_br/pagina-inicial.htm) promoveu uma pesquisa com instituições do mercado de capitais brasileiro sobre sustentabilidade. Segundo a ANBIMA, "_O tema não é novo, mas a adoção dos critérios ESG (ambientais, sociais e de governança) nos processos de decisões de investimento tem crescido diante de efeitos cada vez mais visíveis de mudanças climáticas, tragédias ambientais e problemas sociais_". <p>
-A pandemia do Covid-19 reforçou ainda mais a relevância de implementação de boas práticas ASG (sigla para os três aspectos observados: ambiental, social e governança corporativa). Diante do crescimento da indústria de fundos de investimento e, também, dos fundos temáticos,onde estão incluídos os fundos que observam os aspectos ASG, originou-se a ideia da realização de uma análise dignóstica do comportamento destes fundos temáticos ASG durante a pandemia de Covid-19 no Brasil no período de março/2020 a junho/2021.
+A pandemia do Covid-19 reforçou ainda mais a relevância de implementação de boas práticas ASG (sigla para os três aspectos observados: ambiental, social e governança corporativa). Diante do crescimento da indústria de fundos de investimento e, também, dos fundos temáticos,onde estão incluídos os fundos que observam os aspectos ASG, originou-se a ideia da realização de uma análise diagnóstica do comportamento destes fundos temáticos ASG durante a pandemia de Covid-19 no Brasil no período de março/2020 a junho/2021.
 
 ### Abstract
 
