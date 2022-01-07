@@ -52,7 +52,9 @@ Grandes Números - Mês de Dezembro de 2020: Crescimento para R$ 2,95 bilhões d
 Grandes Números - Mês de Junho de 2021: Crescimento para R$ 3,28 bilhões de Patrimônio Líquido e 43 fundos ASG.  
 <img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148580763-6d89d7ba-4ea3-4b04-920c-220dbbf21bde.png" /><p>
 
-A seguir, telas das composições das carteiras dos fundos BB TOP Ações Índice de Sustentabilidade Empresarial FI Ações e Bradesco Sustentabilidade Empresarial FI Ações nos meses de 03/2020, 12/2020 e 06/2021, respectivamente.<p>  
+Abaixo, seguem as visões das composições das carteiras dos fundos BB TOP Ações Índice de Sustentabilidade Empresarial FI Ações e Bradesco Sustentabilidade Empresarial FI Ações nos meses de 03/2020, 12/2020 e 06/2021, respectivamente.<p>
+Interessante notar que a Petrobras (PETR4) passou a fazer parte da composição de ambos os fundos a partir da visão de 12/2020, refletindo no mercado de ações o reconhecimento em sustentabilidade, que voltou a fazer parte em 2021 do [DJSI WORLD (Dow Jones Sustainability Index World)](https://www.spglobal.com/spdji/pt/indices/esg/dow-jones-sustainability-world-index/#overview), um dos mais importantes índices de sustentabilidade no mundo.
+
 <img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148580902-a238ef10-ae25-4475-9259-26fde873318c.png" />
 
 <img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148581018-be265d18-19be-4a98-98aa-ace7ebf69b85.png" />
