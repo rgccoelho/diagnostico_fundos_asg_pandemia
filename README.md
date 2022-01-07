@@ -25,7 +25,9 @@ The Covid-19 pandemic further reinforced the relevance of implementing good ESG 
 
 ### 1. Introdução
 
-A partir da observação do crescimento da indústria de fundos e da relevância dos aspectos ASG, foi definida a Pergunta de Negócio (Houve crescimento dos fundos ASG na pandemia?) a fim de atender demanda da área de análise da empresa gestora de fundos de investimento onde trabalho.
+A partir da observação do crescimento da indústria de fundos e da relevância dos aspectos ASG, foi definida a seguinte Pergunta de Negócio:<p>
+Houve crescimento dos fundos ASG na pandemia?<p>
+O objetivo é atender demanda da área de análise da empresa gestora de fundos de investimento (_asset_) onde trabalho.
 
 ### 2. Modelagem
 
