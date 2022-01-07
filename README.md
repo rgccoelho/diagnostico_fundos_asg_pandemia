@@ -61,12 +61,18 @@ Interessante notar que a Petrobras (PETR4) passou a fazer parte da composição 
 
 <img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148581114-a10238e3-171b-47e6-8f75-e0d060a75655.png" /><p>
 
-Nesta tela, pode-se verificar a diferença entre retorno e volatilidade dos fundos. No caso dos fundos anteriormente selecionados, percebe-se que o retorno e a volatilidade de ambos são bem próximos.<p>
+Já na visão abaixo, pode-se verificar a diferença entre retorno e volatilidade dos fundos.<p>
+No caso dos fundos anteriormente selecionados, percebe-se que o retorno e a volatilidade de ambos são bem próximos.<p>
 <img align="center" height="400" width="800" src="https://user-images.githubusercontent.com/95982482/148581263-532c62a8-ae50-4bd6-9f62-a2900cdb7496.png" />
 
 ### 3. Resultados
 
-Com os dados disponibilizados no dashboard puderam ser demonstrados vários números, como o crescimento do PL dos fundos, o crescimento do número de fundos ASG disponibilizados na indústria de fundos, o crescimento do número de cotistas, a composição das carteiras dos fundos e a comparação com as carteiras de outros fundos, a comparação entre o retorno e a volatilidade dos fundos.
+Com os dados disponibilizados nos _dashboards_ puderam ser demonstrados vários indicadores:<p>
+  - crescimento do PL dos fundos;<p>
+  - crescimento da quantidade de fundos ASG ofertados pela indústria de fundos;<p>
+  - crescimento do número de cotistas;<p>
+  - composição das carteiras dos fundos bem como a comparação entre suas carteiras; e<p>
+  - comparação entre o retorno e a volatilidade dos fundos.
 
 ### 4. Conclusões
 
