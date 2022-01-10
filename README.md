@@ -1,5 +1,4 @@
 # Diagnóstico de Fundos ASG na Pandemia
-Diagnóstico de Fundos ASG na Pandemia
 
 #### Aluna: [Roberta Gonçalves Coelho](https://github.com/rgccoelho)
 
