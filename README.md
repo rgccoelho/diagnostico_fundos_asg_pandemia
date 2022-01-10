@@ -1,5 +1,5 @@
-# diagnostico_fundos_asg_pandemia
-Diagnóstico de Fundos ASG na pandemia
+# Diagnóstico de Fundos ASG na Pandemia
+Diagnóstico de Fundos ASG na Pandemia
 
 #### Aluna: [Roberta Gonçalves Coelho](https://github.com/rgccoelho)
 
@@ -10,7 +10,7 @@ Diagnóstico de Fundos ASG na pandemia
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
-https://github.com/rgccoelho/Diagnóstico de Fundos ASG na pandemia
+https://github.com/rgccoelho/diagnostico_fundos_asg_pandemia
 ---
 
 ### Resumo
